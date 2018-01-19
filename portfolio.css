@@ -1,0 +1,77 @@
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+body {
+    margin:0;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CB4335;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover:not(.active) {
+  background-color: #2ECC71;
+}
+
+nav .active {
+  background-color: #2980B9;
+}
+
+.page_body {
+  padding:20px;
+  margin-top:30px;
+  height:1500px;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
+
+.content {
+  color: orange;
+}
+
+.content > ul {
+  background-color: #5CFF50;
+}
+
+.content > ul li a {
+  background-color: orange;
+}
+
+.content > ul li a:hover {
+  background-color: #2ECC71;
+}
