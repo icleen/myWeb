@@ -48,6 +48,14 @@ nav .active {
   height:1500px;
 }
 
+.page_body > h2 {
+  color: pink;
+}
+
+.page_body > p {
+  color: aqua;
+}
+
 section {
  display: flex;
 }
